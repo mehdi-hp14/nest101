@@ -1,0 +1,14 @@
+### Lists all http requests
+GET http://localhost:3021/messages
+
+
+### Create a new message
+POST http://localhost:3021/messages
+content-type: application/json
+
+{
+    "content":"hiii there!!"
+}
+
+### get a message
+GET http://localhost:3021/messages/123
